@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <style>
+    .maquetado{
+      border: solid 3px;
+      margin: 120px 0px 0px 0px;
+      background:rgb(224, 170, 189);
+    }
+    .primero{
+      display:inline-flex;
+    }
+    .acerca{
+      border: solid 3px;
+      background:#ff65c7;
+      transition:all 2s;
+    }
+    .acerca:hover{
+      background:#7f3956;
+      color:white;
+      transition:all;
+      transition-duration:2s;
+    }
+    .arriba{
+      background:#cc5eba;
+      transition:all 2s;
+    }
+    .arriba:hover{
+      background:#d16197;
+      color:white;
+      transition:all;
+      transition-duration:2s;
+    }
+    .nombre{
+      border: solid 3px;
+      background:#b297ae;
+      transition:all 2s;
+    }
+    .nombre:hover{
+      background:#684d66;
+      color:white;
+      transition:all;
+      transition-duration:2s;
+    }
+    .cajon{
+      display:inline-flex;
+    }
+    .izquierdo{
+      border: solid 3px;
+      background: #F48FB1;
+      height:315px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      transition:all 2s;
+    }
+    .izquierdo:hover{
+      background:#f171a5;
+      color:white;
+      transition:all;
+      transition-duration:2s;
+    }
+    .centro{
+      border: solid 3px;
+      height:315px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background:#CE93D8;
+      transition:all 2s;
+    }
+    .centro:hover{
+      background:#ef6dbd;
+      color:white;
+      transition:all;
+      transition-duration:2s;
+    }
+    table{
+      padding:50px;
+      font-size:18px;
+    }
+    .derecho{
+      border: solid 3px;
+      background:black;
+      height:315px;
+    }
+    .abajo{
+      border: solid 3px;
+      height:50px;
+      background:#cc5eba;
+      transition:all 2s;
+    }
+    .abajo:hover{
+      background:#d16197;
+      color:white;
+      transition:all;
+      transition-duration:2s;
+    }
+    /* Media queries for responsiveness */
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-collapse {
+        margin-top: 1rem;
+    }
+    .features-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .display-4 {
+        font-size: 2rem;
+    }
+    .features-container {
+        padding: 1rem;
+    }
+}
+
+  </style>
+  <title>Acerca de mi</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 acerca">
+                        <center><h1>Acerca de mi</h1></center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 nombre">
+                <h2>BIELA</h2>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 izquierdo">
+                        <b><i><h2>PERSONALIDAD</h2></i></b>  
+                        <p>Soy una persona reservada y me encanta mantener mi privacidad.</p> 
+                   
+                        <b><i><h2>¿QUÉ ME GUSTA?</h2></i></b>  
+                        <p>Mis pasatiempos incluyen el dibujo, la pintura, la decoración de interiores y la música. En cambio, los videojuegos no me atraen en absoluto, y aunque no suelo ver películas ni series, si tuviera que elegir, preferiría las series.</p> 
+                   
+                        <b><i><h2>MÚSICA</h2></i></b>
+                        <p>La música es muy importante para mí, ya que es una constante en mi vida. Escucho una variedad de géneros, pero mis preferencias cambian según mi estado de ánimo. Sin embargo, hay tipos de música que no soporto, como la ranchera, la banda, los corridos, y cualquier música con letras de doble sentido, sin importar el idioma. Un ejemplo de las que me gustan son las siguientes:</p>
+                        <ul>
+                            <li>Alabanzas</li>
+                            <li>Antiguas en inglés</li>
+                            <li>K-pop</li>
+                            <li>Antiguas en español</li>
+                        </ul>
+                        <b><i><h2>RELIGIÓN</h2></i></b>
+                        <p>Soy una persona muy creyente en Dios, lo que no significa que sea perfecta, sino que me esfuerzo por ser mejor cada día, con Dios como guía en mi vida.</p>
+                         
+                        <b><i><h2>PELICULAS O SERIES</h2></i></b>
+                        <p>No disfruto mucho ver películas o series. No soy muy fan de estos formatos, especialmente si contienen temas perversos, muertes o asesinatos. Dado que la mayoría de los contenidos actuales incluyen estos elementos, tiendo a evitarlos. Tengo 3 peliculas favoritas, las cuales son:</p>
+                        <ul>
+                            <li>La pasión de Cristo</li>
+                            <li>Enredados</li>
+                            <li>La bella y la bestia</li>
+                        </ul>
+                        <b><i><h2>Alimentación</h2></i></b>
+                        <p>De Carnes, solo consumo camarones y pescado. No como otros tipos de mariscos porque no me gusta ver a los animales sufrir, y elijo estos dos para evitar problemas de salud. Me gustan todas las frutas y las verduras, y mis comidas favoritas son:</p>
+                        <ul>
+                            <li>Frijol</li>
+                            <li>Spicy noodles</li>
+                        </ul>
+                    
+                        <b><i><h2>¿Por qué elegí esta carrera?</h2></i></b>
+                        <p>Quiero utilizar la tecnología para ayudar a las personas necesitadas y asegurarme de que se le dé un uso beneficioso y constructivo.</p>
+                        <b><i><h2>¿Qué lenguajes de Programación he utilizado?</h2></i></b>
+                        <ul>
+                            <li>Java</li>
+                            <li>C#</li>
+                            <li>HTML</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 centro">
+                        <table class="table table-bordered">
+                            <tr>			
+                                <td colspan="3"><center>Datos Personales</center></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre Completo</td>
+                                <td>Heidi Gabriela Maldonado Santizo</td>
+                            </tr>
+                            <tr>
+                                <td>Fecha de Nacimiento</td>
+                                <td>25 de junio del 2003</td>
+                            </tr>
+                            <tr>
+                                <td>Lugar de Nacimiento</td>
+                                <td>Guatemala, Ciudad de Guatemala</td>
+                            </tr>
+                            <tr>
+                                <td>Estatura</td>
+                                <td>1.72 cm</td>
+                            </tr>
+                            <tr>
+                                <td>Carrera</td>
+                                <td>Ingeniería en Sistemas</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 derecho">
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/Av9DvtlJ9_M?si=0UU1qeIKh2b6tuH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <section id="gallery">
+                    <h2>Galería</h2>
+                    <div class="text-center mt-5">
+                      <img src="dibujP.jpg" width= 300" height="200" alt="Dibujo" class="img-fluid">
+                      <img src="musica.jpg" width="300" height="200" alt="Música" class="img-fluid">
+                    </div>
+                </section>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 abajo">
+                        <center><h2>50831949</h2></center>
+                    </div>
+                </div
